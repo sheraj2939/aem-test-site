@@ -1,0 +1,57 @@
+// .hero_container {
+//     color-scheme: dark light;
+//     --bkg-img: url('https://perfectdailygrind.com/wp-content/uploads/2019/02/bussy-coffee-shop.jpg');
+//     --bdr-size: 0.8rem;
+
+//   .hero {
+//     background-image: var(--bkg-img);
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // height: calc(100svh - (var(--bdr-size) * 2));
+    // width: calc(100svw - (var(--bdr-size) * 3));
+    // display: grid;
+    // place-items: center;
+//   }
+//   h1 {
+//     color: white;
+//     text-align: center;
+//     font-size: 2.1rem;
+//     text-shadow: 0.1rem 0.2rem gray;
+//     box-shadow: 0 0 0.5rem black;
+//     background: rgba(40, 40, 40, 0.6);
+//     padding: 0.5ch 2ch;
+//     margin-bottom: 2ch;
+//   }
+//   .bg_overlay_test {
+    // border: 0.8rem solid;
+    // border-radius: 3rem;
+//     border-image-source: linear-gradient(
+//       rgba(70, 70, 70, 0.55), /* gray */
+//       rgba(10, 10, 10, 0.55) /* black */
+//     );
+//     border-image-slice: 1;
+//   }
+// }
+
+.hero-banner-container {
+
+    .text {
+        color: white;
+        padding: 0.5ch 2ch;
+        font-size: 2.1rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        box-shadow: 0 0 0.5rem black;
+        background: rgba(40, 40, 40, 0.6);
+        text-shadow: 0.1rem 0.2rem gray;
+    }
+
+    .image {
+        // border: 0.8rem solid;
+        // border-radius: 3rem;
+        // border-image-slice: 1;      
+        // border-image-source: linear-gradient(rgba(70, 70, 70, 0.55), rgba(10, 10, 10, 0.55));
+    }
+}
