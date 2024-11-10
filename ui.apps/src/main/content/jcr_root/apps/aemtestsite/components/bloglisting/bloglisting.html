@@ -1,0 +1,12 @@
+<div class="blog-listing">
+    <h1>Blog Posts</h1>
+    <ul>
+        <sly data-sly-use.blogListing="${'com.aem.testsite.core.models.BlogListingModel'}">
+            <sly data-sly-list="${blogListing.blogPosts}">
+                <li>
+                    <a href="${item.link}">${item.title}</a>
+                </li>
+            </sly>
+        </sly>
+    </ul>
+</div>

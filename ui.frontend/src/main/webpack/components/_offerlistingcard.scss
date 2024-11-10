@@ -1,0 +1,75 @@
+
+
+figure.offercard-container.dark {
+    height: 16rem;
+}
+.offercard-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f5f9; /* slate-100 */
+    border-radius: 0.75rem; /* rounded-xl */
+    padding: 2rem; /* p-8 */
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+      padding: 0; /* md:p-0 */
+    }
+  
+    &.dark-mode {
+      background-color: #1e293b; /* dark:bg-slate-800 */
+    }
+  
+    img {
+      width: 6rem; /* w-24 */
+      height: 6rem; /* h-24 */
+      border-radius: 50%; /* rounded-full */
+      margin: auto;
+  
+      @media (min-width: 768px) {
+        width: 12rem; /* md:w-48 */
+        height: auto; /* md:h-auto */
+        border-radius: 0; /* md:rounded-none */
+      }
+    }
+  
+    .captxt {
+      padding-top: 1.5rem; /* pt-6 */
+      text-align: center;
+      width: 65rem;
+  
+      @media (min-width: 768px) {
+        padding: 2rem; /* md:p-8 */
+        text-align: left; 
+        width: auto;
+      }
+  
+      .quote {
+        font-size: 1.125rem; /* text-lg */
+        font-weight: 500; /* font-medium */
+        color: #0f172a; /* default text color */
+      }
+  
+      .figcaption {
+        font-weight: 500; /* font-medium */
+  
+        .name {
+          color: #0ea5e9; /* text-sky-500 */
+        }
+  
+        .role {
+          color: #475569; /* text-slate-700 */
+        }
+  
+        &.dark-mode {
+          .name {
+            color: #38bdf8; /* dark:text-sky-400 */
+          }
+  
+          .role {
+            color: #64748b; /* dark:text-slate-500 */
+          }
+        }
+      }
+    }
+  }
+  

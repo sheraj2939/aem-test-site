@@ -1,0 +1,5 @@
+<sly data-sly-template.description="${@ teaser}">
+    <div class="cmp-teaser__description" data-sly-test.description="${teaser.description}">${description @ context="html"}</div>
+    <div class="cmp-teaser__description" data-sly-test.description1="${properties.cardDesc}">${properties.cardDesc @ context="html"}</div>
+    <!-- I added delgation method  -->
+</sly>

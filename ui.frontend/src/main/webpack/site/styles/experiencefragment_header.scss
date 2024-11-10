@@ -2,8 +2,6 @@
 //== XF Header style, used on page template
 
 header.experiencefragment {
-    padding: .5em 1em;
-    border-bottom: 1px solid $color-foreground;
 
     @media (prefers-color-scheme: dark) {
         border-bottom-color: $color-foreground-dark;

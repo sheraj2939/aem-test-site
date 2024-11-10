@@ -1,0 +1,70 @@
+/* Basic header styling */
+.header-fixed {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
+
+.header-limiter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header-limiter h1 {
+    margin: 0;
+}
+
+.header-limiter nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-limiter nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.header-limiter nav a.selected {
+    font-weight: bold;
+}
+
+/* Search form styling */
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.search-input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    min-width: 150px;
+    height: 32px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 32px;
+}
+
+.search-button i {
+    font-size: 1rem;
+}
+
+.search-input:focus {
+    border-color: #007bff;
+}
